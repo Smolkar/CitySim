@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CityGroundline.Construction" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAEAAIAAQAAAAAAAAAAIBAQIAgAAAIAABAAAAAYBA=</HashCode>
+      <FileName>Classes\Buildings\Construction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CityGroundline.ResidenceHouse">
+    <Position X="0.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Classes\Buildings\ResidenceHouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CityGroundline.ShopHouse">
+    <Position X="2.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Classes\Buildings\ShopHouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CityGroundline.Policestation">
+    <Position X="4.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Classes\Buildings\Policestation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CityGroundline.Vehicle">
+    <Position X="10.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAIAAAgAAAAAAAIAQASAQAAAAAAABAAAAEYAA=</HashCode>
+      <FileName>Classes\Vehicles\Vehicle.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_MyAI" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CityGroundline.CivilianVehicle" Collapsed="true">
+    <Position X="13.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Classes\Vehicles\CivilianCar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CityGroundline.PoliceVehicle" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Classes\Vehicles\PoliceVehicle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CityGroundline.SimulatorForm" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>sowAoBAAgGBEQBQAgCSAAABaAEB9oAUQAHCsAAACgAQ=</HashCode>
+      <FileName>SimulatorForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_mySimulatorMgr" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CityGroundline.City">
+    <Position X="8.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAEAAAAAAAAAAAAAACCAAIAACAAAAAA=</HashCode>
+      <FileName>Classes\City.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_myConstructions" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CityGroundline.SimulatorManager" Collapsed="true">
+    <Position X="2.5" Y="2.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>SCgAIEAAGICBAhgQKAgACgIEBEAAAAEQEICAAAADAAA=</HashCode>
+      <FileName>Classes\SimulatorManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_myCity" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CityGroundline.EmptySpot">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Classes\Buildings\EmptySpot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CityGroundline.Road" Collapsed="true">
+    <Position X="8" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAoAAQABAAICAICAAAIAAAABABAGEAAABA=</HashCode>
+      <FileName>Classes\Buildings\Road.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CityGroundline.AI" Collapsed="true">
+    <Position X="11.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAACABAAAAAACAAAAABAAAAIABAAIACAAAAAAA=</HashCode>
+      <FileName>AI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CityGroundline.FireTruck" Collapsed="true">
+    <Position X="16" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Classes\Vehicles\FireTruck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CityGroundline.Ambulance" Collapsed="true">
+    <Position X="14.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Classes\Vehicles\Ambulance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CityGroundline.Hospital">
+    <Position X="0.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Classes\Buildings\Hospital.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CityGroundline.FireStation">
+    <Position X="2.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Classes\Buildings\FireStation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CityGroundline.NuclearPlant">
+    <Position X="4.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Classes\Buildings\NuclearPlant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

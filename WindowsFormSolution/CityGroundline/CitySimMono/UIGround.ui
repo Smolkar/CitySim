@@ -1,0 +1,25 @@
+{
+  "$id": "1",
+  "$type": "Myra.Graphics2D.UI.Project, Myra",
+  "ExportOptions": {
+    "$type": "Myra.Graphics2D.UI.ExportOptions, Myra"
+  },
+  "Root": {
+    "$id": "2",
+    "$type": "Myra.Graphics2D.UI.Grid, Myra",
+    "DrawLinesColor": {
+      "$id": "3",
+      "$type": "Microsoft.Xna.Framework.Color, MonoGame.Framework",
+      "B": 255,
+      "G": 255,
+      "R": 255,
+      "A": 255
+    },
+    "ColumnsProportions": [],
+    "RowsProportions": [],
+    "Widgets": [],
+    "Id": "Root",
+    "HorizontalAlignment": 3,
+    "VerticalAlignment": 3
+  }
+}

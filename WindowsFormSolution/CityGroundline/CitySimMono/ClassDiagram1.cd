@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CitySimMono.Artifintel.AI" Collapsed="true">
+    <Position X="17.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAACABAAAAAACAAAAABAAAAIABAAIACAAAAAAA=</HashCode>
+      <FileName>ArtifIntel\AI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CitySimMono.World.BaligoEngine" Collapsed="true">
+    <Position X="21.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAEhACBADAAwAAAAICCEAAIAAAAAACAIAAAQAAIAQ=</HashCode>
+      <FileName>BaligoEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CitySimMono.World.City" Collapsed="true">
+    <Position X="23" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAgAIEAEEAAAAgAQiAAAAAEEFEIAACAQEAAACAAAAAA=</HashCode>
+      <FileName>World\City.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CitySimMono.World.SimulatorManager" Collapsed="true">
+    <Position X="23" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAhAAIAgAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>World\SimulatorManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CitySimMono.Entity.Buildings.Construction" Collapsed="true">
+    <Position X="10.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAIAAQAAAAAAAAAAIBAQIQAAAAAAAAAAAAAYBA=</HashCode>
+      <FileName>Entity\Buildings\Construction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CitySimMono.Entity.Buildings.EmptySpot" Collapsed="true">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAABAAgAAAABACAAAQAIAAAAAAAICAAACAwA=</HashCode>
+      <FileName>Entity\Buildings\EmptySpot.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CitySimMono.Entity.Buildings.Policestation" Collapsed="true">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAICAAAAAgA=</HashCode>
+      <FileName>Entity\Buildings\Policestation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CitySimMono.Entity.Buildings.ResidenceHouse" Collapsed="true">
+    <Position X="10.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Entity\Buildings\ResidenceHouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CitySimMono.Entity.Buildings.Road" Collapsed="true">
+    <Position X="13" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAgAIAAAAAgQgBAAASAAAAAEIAgEABAICAQAAAhA=</HashCode>
+      <FileName>Entity\Buildings\Road.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CitySimMono.Entity.Buildings.ShopHouse" Collapsed="true">
+    <Position X="15.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Entity\Buildings\ShopHouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CitySimMono.Entity.Buildings.SpawnCars" Collapsed="true">
+    <Position X="17.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\Buildings\SpawnCars.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CitySimMono.Entity.Buildings.TrafficLight" Collapsed="true">
+    <Position X="13" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAAAAgAAAAAAAABAAAAAAAAAAABAAABAAAAAA=</HashCode>
+      <FileName>Entity\Buildings\TrafficLight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CitySimMono.Entity.Cars.Ambulance" Collapsed="true">
+    <Position X="8.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Entity\Cars\Ambulance.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CitySimMono.Entity.Cars.CivilianVehicle" Collapsed="true">
+    <Position X="10.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAICAAAAAgA=</HashCode>
+      <FileName>Entity\Cars\CivilianCar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CitySimMono.Entity.Cars.FireTruck" Collapsed="true">
+    <Position X="13" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Entity\Cars\FireTruck.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CitySimMono.Entity.Cars.PoliceVehicle" Collapsed="true">
+    <Position X="6.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAICAAAAAgA=</HashCode>
+      <FileName>Entity\Cars\PoliceVehicle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CitySimMono.Entity.Cars.Vehicle">
+    <Position X="17" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAggAAAAAAIDRASSAAAQAAAAICAAIGYgA=</HashCode>
+      <FileName>Entity\Cars\Vehicle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CitySimMono.Entity.Custom_Mouse.CustomMouse1" Collapsed="true">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\Custom Mouse\CustomMouse1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CitySimMono.Graphics.Assets" Collapsed="true">
+    <Position X="19.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAIAoAQAAAAICAAAAAAAABAAAAAAAiAAQAAAAI=</HashCode>
+      <FileName>Graphics\Assets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CitySimMono.Graphics.UI" Collapsed="true">
+    <Position X="21.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABEAAAAggAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Graphics\UI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CitySimMono.Tile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAAAABggAAAAAAAAAAAAAAAgMAAAICAAAAAwA=</HashCode>
+      <FileName>Graphics\Tile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CitySimMono.MainLauncher" Collapsed="true">
+    <Position X="21.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>MainLauncher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CitySimMono.Input.InputManager" Collapsed="true">
+    <Position X="19.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAQAgIDAAAAQAAQBwIAAAAAQAAABAAAAAABCACAAABA=</HashCode>
+      <FileName>Inputs\InputManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CitySimMono.Entity.Cars.IVehicle" Collapsed="true">
+    <Position X="6" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQASAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Entity\Cars\IVehicle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CitySimMono.Graphics.IRender" Collapsed="true">
+    <Position X="6" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAICAAAAAgA=</HashCode>
+      <FileName>Graphics\IRender.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
